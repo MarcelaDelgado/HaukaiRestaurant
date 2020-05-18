@@ -1,0 +1,371 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+* {
+    box-sizing: border-box;
+}
+
+/* Style the header */
+
+header {
+	z-index: 1;
+	position: fixed;
+	height: 120px;
+  width: 100%;
+  background-color: rgb(173, 38, 45);
+	margin: 0;
+	padding: 1px;
+	top: 0;
+	}
+
+img.logo {
+  display: inline-block;
+  vertical-align: middle;
+  padding-left: 2px;
+  padding-bottom:1px;
+  height: 150px;
+}
+
+header nav {
+	  list-style-type: none;
+  	display: inline-block;
+    vertical-align: middle;
+    width: 70%;
+    text-align: right;
+    }
+
+ li {
+	text-decoration: none;
+	display: inline-block;
+
+}
+
+nav.topnav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+   overflow: hidden;
+}
+
+ nav.topnav li {float: left;}
+
+ nav.topnav li a {
+  display: inline-block;
+  color: #fff;
+  text-align: center;
+  padding: 6px;
+  text-decoration: none;
+  font-style: normal;
+}
+
+/* movil nav */
+nav.topnav li a:hover {
+color: #fff;
+font-style: bold;
+border-bottom: 1px solid #dff6f2;
+}
+
+nav.topnav li.icon {display: none;}
+
+@media screen and (max-width:800px) {
+  nav.topnav li:not(:first-child) {display: none;}
+  nav.topnav li.icon {
+  display:inline-block;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  nav.topnav.responsive {position: relative;}
+  nav.topnav.responsive li.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  nav.topnav.responsive li {
+    float: none;
+    display: inline;
+  }
+  nav.topnav.responsive li a {
+    display: block;
+    text-align: left;
+    background-color: rgb(173, 38, 45);
+  	color: #fff;
+  }
+   nav.topnav li a:hover {
+   color: #fff;
+}
+header nav {
+  position: fixed;
+}
+
+
+}
+/* media query for mobile device nav new */
+
+ @media only screen and (max-width: 500px){
+	 header nav {
+  position: fixed;
+}
+
+ }
+
+ .responsive {
+  width: 100%;
+  height: auto;
+}
+
+ #menu {
+  width: 90%;
+  padding-left: 60px;
+  padding-top: 100px;
+  margin-top: 20px;
+  padding-bottom: 40px;
+ }
+ #menu h1 {
+
+  text-align: center;
+ }
+/*table */
+table, th, td {
+  border: 1px solid#55721A;
+  border-collapse: collapse;
+
+}
+th, td {
+  padding: 8px;
+}
+th {
+  text-align: left;
+}
+
+
+main h1, h2, h3{
+color: #333;
+}
+.mainpic {
+  padding-top: 100px;
+   height: auto;
+   width: 100%;
+   background-color: #FFFFFF;
+}
+.mainpic img{
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.container {
+  position: relative;
+  width: 100%;
+
+}
+.container .btn {
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: rgb(173, 38, 45);
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+.btn a {
+  text-decoration: none;
+  color: white;
+}
+.container .btn:hover {
+  background-color: #000000;
+  color: white;
+}
+.container h1, p {
+  text-align: center;
+}
+
+/*map */
+
+.map{
+
+  padding-left: 45px;
+  background-color: #fff;
+}
+/* style for section and article */
+article {
+    padding: 30px;
+    margin: 15px;
+  }
+
+article h2 {
+    text-align: center;
+}
+article h3 {
+    padding-left: 15px;
+}
+article p {
+    padding-left: 15px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    text-align: justify;
+
+}
+article img {
+    padding-left: 30px;
+}
+
+section {
+    background-color: #FFFFFF;
+    padding-top: 30px;
+    float: left;
+    width: 100%;
+}
+section h1, h2, h3 {
+   padding-left: 30px;
+   padding-top: 20px;
+     }
+     section img{
+        float: right;
+        width: 100%;
+    }
+    section p {
+        padding-left: 30px;
+        padding-top: 20px;
+          }
+/* end */
+
+section {
+    background-color: #FFFFFF;
+    width: 100%;
+    padding: 15px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+     }
+
+ article {
+  flex: 200px;
+  padding: 30px;
+  margin: 20px;
+ }
+
+ /*about*/
+
+ #about{
+  padding-top: 130px;
+  padding-left: 50px;
+  padding-right: 50px;
+  height: 700px;
+  max-width: 900px;
+ }
+ #about h1, p{
+   text-align: left;
+   padding-left: 45px;
+ }
+
+ /*reservatio*/
+ #reservation{
+  padding-top: 130px;
+  padding-left: 50px;
+  padding-right: 50px;
+  max-width: 900px;
+
+ }
+ /*privacy*/
+ #privacy {
+  padding-top: 130px;
+  padding-left: 50px;
+  padding-right: 50px;
+  max-width: 900px;
+ }
+#privacy h1, h2, p{
+  text-align: left;
+  padding-left: 45px;
+}
+ #sitemap{
+  padding-top: 130px;
+  padding-left: 50px;
+  padding-right: 50px;
+  height: 700px;
+  max-width: 900px;
+ }
+
+ #sitemap h1, h2{
+  text-align: left;
+  padding-left: 45px;
+ }
+/*staff*/
+ #staff{
+  padding-top: 130px;
+  padding-left: 50px;
+  padding-right: 50px;
+  max-width: 900px;
+ }
+footer {
+    background-color: rgb(114, 106, 84);
+    text-align: center;
+    padding: 10px;
+    height: 220px;
+    color: #fff;
+    clear: both;
+
+}
+
+footer p{
+
+  padding-left: 45px;
+}
+footer a{
+  color: #fff;
+}
+hr{
+    border-top: 2px solid  #55721A;
+    width: 80%;
+     margin: auto;
+}
+
+/* Use a media query to add a break point at 800px: */
+@media screen and (max-width:1500px) {
+  body {
+      background-color:white;
+}
+}
+
+@media screen and  (max-width:800px) {
+
+  body {background-color: white;
+}
+
+
+}
+
+
+@media screen and (max-width: 600px) {
+    .topnav a:not(:first-child) {display: none;}
+    .topnav a.icon {
+      float: left;
+      display: block;
+    }
+  }
+
+  @media screen and (max-width: 600px) {
+    .topnav.responsive {position: relative;}
+    .topnav.responsive .icon {
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+    .topnav.responsive a {
+      float: none;
+      display: block;
+      text-align: left;
+    }
+  }
