@@ -228,7 +228,10 @@ section {
     float: left;
     width: 100%;
 }
-section h1, h2, h3 {
+section h2{
+  text-align: center;
+}
+section h1, h3 {
    padding-left: 30px;
    padding-top: 20px;
      }
