@@ -20,3 +20,14 @@ The role of the HTTP caching is to keep updates copies of the original website.
 The CDN delivers its content from a server located close to the website user, making the response time faster.
 
 
+For made the website responsive and mobile friendly I use media queries in differents break point, horizontal layout in bigger screens,
+and 100% wide display that make stack sections on top of each other in mobile screens.
+
+
+GitHub Repository link:
+https://github.com/MarcelaDelgado/HaukaiRestaurant
+
+
+GitHub Pages link:
+https://marceladelgado.github.io/HaukaiRestaurant/
+
