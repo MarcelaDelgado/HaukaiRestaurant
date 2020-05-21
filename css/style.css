@@ -280,8 +280,9 @@ section {
   padding-left: 50px;
   padding-right: 50px;
   max-width: 900px;
-
+  height: 100%;
  }
+
  /*privacy*/
  #privacy {
   padding-top: 130px;

@@ -23,9 +23,7 @@
     <li><a href="reservations.html" >RESERVATIONS</a></li>
     <li><a href="contact.html" >CONTACT</a></li>
     <li><a href="hours.html" >HOURS</a></li>
-    <li><a href="#">SHOP</a></li>
-
-<li class="icon">
+    <li class="icon">
   <a href="javascript:void(0);" style="font-size:15px;" onclick="myFunction()">☰</a>
 </li>
 </ul>
@@ -51,6 +49,16 @@
 
       <p style="text-align: center;padding-top: 70px;">©Copyright 2020 by The Haukai Restaurant. All rights reversed.</p>
     </footer>
+    <script>
+      function myFunction() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+          x.className += " responsive";
+        } else {
+          x.className = "topnav";
+        }
+      }
+      </script>
 </body>
 
 </html>

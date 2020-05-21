@@ -25,19 +25,14 @@
     <li><a href="reservations.html" >RESERVATIONS</a></li>
     <li><a href="contact.html" >CONTACT</a></li>
     <li><a href="hours.html" >HOURS</a></li>
-    <li><a href="#">SHOP</a></li>
-
-<li class="icon">
+    <li class="icon">
   <a href="javascript:void(0);" style="font-size:15px;" onclick="myFunction()">☰</a>
 </li>
 </ul>
 </nav>
-
 </header>
 
-
     <main>
-
           <div id="reservation">
             <p>Come and enjoy a meal with us at The Haukai Restaurant today.</p>
             <p>For larger bookings with 10 or more people please give us a
@@ -50,11 +45,18 @@
     <footer>
       <p> <a href="privacy.html">Privacy Policy</a></p>
       <p><a href="sitemap.html">Sitemap</a></p>
-
       <p style="text-align: center;padding-top: 70px;">©Copyright 2020 by The Haukai Restaurant. All rights reversed.</p>
-
     </footer>
-
+    <script>
+      function myFunction() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+          x.className += " responsive";
+        } else {
+          x.className = "topnav";
+        }
+      }
+      </script>
 </body>
 
 </html>
