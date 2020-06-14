@@ -6,7 +6,11 @@ body {
 * {
     box-sizing: border-box;
 }
-
+/* Style for each class specials */
+.specials {
+  color: red;
+  background-color: yellow;
+}
 /* Style the header */
 
 header {
