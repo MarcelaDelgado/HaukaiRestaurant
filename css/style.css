@@ -63,7 +63,7 @@ nav.topnav {
 /* movil nav */
 nav.topnav li a:hover {
 color: #fff;
-font-style: bold;
+
 border-bottom: 1px solid #dff6f2;
 }
 
