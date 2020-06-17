@@ -1,4 +1,4 @@
 AuthType Basic
 AuthName "Restricted access"
-AuthUserFile "/github.com/MarcelaDelgado/HaukaiRestaurant/private/.htpasswd"
+AuthUserFile github.com/MarcelaDelgado/HaukaiRestaurant/staff.html/.htpasswd
 Require valid-user
