@@ -1,4 +1,4 @@
 AuthType Basic
 AuthName "Restricted access"
-AuthUserFile github.com/MarcelaDelgado/HaukaiRestaurant/private/staff.html/.htpasswd
+AuthUserFile C:\Users\celes\Documents\BIT607_A2_3221107s\Haukai Restaurant\HaukaiRestaurant\private\.htpasswd
 Require valid-user
